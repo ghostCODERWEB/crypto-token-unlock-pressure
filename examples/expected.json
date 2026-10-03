@@ -1,0 +1,36 @@
+{
+  "initial_circulating": 100,
+  "scheduled_supply": 150,
+  "timeline": [
+    {
+      "by_schedule": {
+        "cliff": 0,
+        "linear": 0
+      },
+      "circulating": 100,
+      "dilution_vs_initial": "0",
+      "timestamp": 0,
+      "unlocked": 0
+    },
+    {
+      "by_schedule": {
+        "cliff": 50,
+        "linear": 50
+      },
+      "circulating": 200,
+      "dilution_vs_initial": "1",
+      "timestamp": 5,
+      "unlocked": 100
+    },
+    {
+      "by_schedule": {
+        "cliff": 50,
+        "linear": 100
+      },
+      "circulating": 250,
+      "dilution_vs_initial": "1.5",
+      "timestamp": 10,
+      "unlocked": 150
+    }
+  ]
+}

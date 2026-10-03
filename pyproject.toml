@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-token-unlock-pressure"
+version = "0.1.0"
+description = "Aggregate cliff and linear unlock schedules into dated circulating supply and normalized dilution estimates."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-token-unlock-pressure = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]

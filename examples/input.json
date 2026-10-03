@@ -1,0 +1,22 @@
+{
+  "initial_circulating": 100,
+  "timestamps": [
+    0,
+    5,
+    10
+  ],
+  "schedules": [
+    {
+      "id": "linear",
+      "amount": 100,
+      "start": 0,
+      "end": 10
+    },
+    {
+      "id": "cliff",
+      "amount": 50,
+      "start": 5,
+      "end": 5
+    }
+  ]
+}
